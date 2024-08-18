@@ -61,7 +61,10 @@
 
     width: 240px;
     margin-left: 125px;
+}
 
+.address-list {
+    list-style: none;
 }
 
 .header__address-number {
@@ -214,13 +217,19 @@
     min-height: 50px;
 }
 
+.bet-button-link {
+    text-decoration: none;
+}
+
 /* OVERLAY */
 
 .overlay {
     position: absolute;
+
     background-color:rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
+
     z-index: 1;
 }
 

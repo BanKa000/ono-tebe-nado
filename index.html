@@ -32,38 +32,47 @@
         />
       </a>
       <address class="address">
-        <a href="tel:+99995555555" class="header__address-number">
-          +9 999 555 5555
-          </a>
-        <a href="mailto:info@sobaka.ge" class="header__address-email">
-          info@sobaka.ge
-        </a>
-        <h3 class="address__text">
-          наб. Принсенграхт 263- <br />265, Амстердам
-        </h3>
+        <ul class="address-list">
+          <li>
+            <a href="tel:+99995555555" class="header__address-number">
+              +9 999 555 5555
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@sobaka.ge" class="header__address-email">
+              info@sobaka.ge
+            </a>
+          </li>
+          <li>
+            <h3 class="address__text">
+              наб. Принсенграхт 263- <br />265, Амстердам
+            </h3>
+          </li>
+        </ul>
       </address>
-        
     </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
         <section class="cover__title">
-          <h1 class="aligned-text"
-            >О<span class="letter-spacing-extended">но</span>
+          <h1 class="aligned-text">
+            О<span class="letter-spacing-extended">но</span>
           </h1>
           <h1 class="aligned-text_center">
             те<span class="letter-spacing-extended">бе</span>
-            </h1>
+          </h1>
           <h1 class="aligned-text_right">
             н<span class="letter-spacing-extended">ад</span>
             <span class="no-letter-spacing">о</span>
-            </h1>
+          </h1>
         </section>
         <section class="cover__description">
           <div class="cover__description-text">
             <p>Аукцион вещей, в которые никто не верил</p>
           </div>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button">
+            <a href="#" class="bet-button-link">Сделать ставку</a>
+          </button>
         </section>
       </section>
 
@@ -158,12 +167,24 @@
 
     <footer class="footer">
       <address class="footer__address">
-        <a href="tel:+9 999 555 5555" class="header__address-number">
-          +9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="header__address-email">
-          info@sobaka.ge</a>
-        <h3 class="address__text">наб. Принсенграхт 263- 265, Амстердам</h3>
-      </address>
+          <ul class="address-list">
+            <li>
+              <a href="tel:+99995555555" class="header__address-number">
+                +9 999 555 5555
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@sobaka.ge" class="header__address-email">
+                info@sobaka.ge
+              </a>
+            </li>
+            <li>
+              <h3 class="address__text">
+                наб. Принсенграхт 263- <br />265, Амстердам
+              </h3>
+            </li>
+          </ul>
+        </address>
 
       <nav class="footer__menu">
         <ul class="footer__menu-list">
@@ -173,14 +194,10 @@
             </a>
           </li>
           <li class="footer__menu-list-item">
-            <a href="#" class="footer__menu-link">
-              посмотреть лоты
-            </a>
+            <a href="#" class="footer__menu-link"> посмотреть лоты </a>
           </li>
           <li class="footer__menu-list-item">
-            <a href="#" class="footer__menu-link">
-              об аукционе
-            </a>
+            <a href="#" class="footer__menu-link"> об аукционе </a>
           </li>
         </ul>
       </nav>
