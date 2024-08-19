@@ -499,14 +499,13 @@
     text-align: left;
 }
 
-.footer__address-email { 
+.footer__address-email {
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
     letter-spacing: 0.01em;
     text-align: left;
-    
 }
 
 /* FOOTER MENU */
