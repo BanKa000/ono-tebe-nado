@@ -11,7 +11,7 @@
     justify-items: center;
     grid-template-columns: 1fr 170px 1fr;
 
-    padding: 92px 0 96px 0px;
+    padding: 92px 0 91px 0px;
     width: 1100px;
 }
 
@@ -297,6 +297,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    gap: 25px;
     height: 100%;
 }
 
@@ -340,7 +341,7 @@
     color: #fff;
 
     width: 334px;
-    height: 100%;
+    min-height: 563px;
 }
 
 .card_type_film {
