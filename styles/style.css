@@ -103,8 +103,6 @@
     flex-direction: column;
 
     background: url(../images/cover.jpg) no-repeat center / cover;
-    background-size: cover;
-    background-position: center;
 }
 
 .cover__title {
@@ -353,7 +351,7 @@
     background-image: url('../images/card-lot-02.jpg');
 }
 
-.lots__card-list-item .card_type_picture {
+.card_type_picture {
     background-image: url('../images/card-lot-03.jpg');
 }
 
